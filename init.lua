@@ -1,0 +1,9 @@
+appname="一个简洁美观的氚布局"
+appver="1.0"
+packagename="com.hainacloud.demo"
+theme="Theme_Material_Light_NoActionBar"
+debugmode=true
+user_permission={
+  "INTERNET",
+  "WRITE_EXTERNAL_STORAGE",
+}
