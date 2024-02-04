@@ -1,0 +1,6 @@
+{
+  LinearLayout;--线性控件
+  orientation='vertical';--布局方向
+  layout_width='fill';--布局宽度
+  layout_height='120dp';--布局高度
+}
