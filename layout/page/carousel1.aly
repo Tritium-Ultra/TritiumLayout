@@ -1,0 +1,30 @@
+{
+  LinearLayout,
+  orientation="vertical",
+  layout_width='fill';--卡片宽度
+  layout_height='fill';--卡片高度
+  gravity="center",
+  {
+    MaterialCardView;--卡片控件
+    layout_width='fill';--卡片宽度
+    layout_height='fill';--卡片高度
+    cardBackgroundColor='#ffffff';--卡片颜色
+    layout_marginLeft='16dp';--布局左距
+    layout_marginRight='16dp';--布局右距
+    layout_gravity='center';--在父控件中的对齐方式
+    layout_margin='0dp';--卡片边距
+    cardElevation='0dp';--卡片阴影
+    strokeWidth="0dp", --边框宽度
+    clickable=true;--点击效果
+    id='carousel1';--设置控件ID
+    radius='12dp';--卡片圆角
+    {
+      ImageView;--图片控件
+      layout_width='fill';--图片宽度
+      layout_height='fill';--图片高度
+      src='img/p1.png';--图片路径
+      scaleType='fitXY';--图片拉伸
+      layout_gravity='center';--重力
+    };
+  };
+}
